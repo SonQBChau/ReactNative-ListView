@@ -4,7 +4,8 @@
 
     Navigate into your new directory and start it up.
 
-    ```react-native run-ios
+    ```sh
+    react-native run-ios
     ```
 
 ## 📷 Screenshot
