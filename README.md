@@ -1,5 +1,12 @@
 # DemoApp
 
+1.  **How to run**
+
+    Navigate into your new directory and start it up.
+
+    ```react-native run-ios
+    ```
+
 ## 📷 Screenshot
 
 ![Screenshot](screen1.png)
