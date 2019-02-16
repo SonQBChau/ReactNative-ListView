@@ -1,9 +1,10 @@
-
-
 import React, {Component} from 'react';
 import { StyleSheet, FlatList, SafeAreaView} from 'react-native';
 import DemoImg from '../components/DemoImg';
 
+/*
+    LISTVIEW SCREEN, DISPLAY LIST OF IMAGE AND TITLE IN 2 COLUMNS FORMAT
+*/
 export default class App extends Component{
 
     // default state
@@ -54,7 +55,7 @@ export default class App extends Component{
     return (
     <SafeAreaView style={styles.container}>
             <FlatList
-                columnWrapperStyle={{ justifyContent: 'space-between',}}
+                columnWrapperStyle={styles.list}
                 numColumns={2}
                 horizontal={false}
                 data={imgList}
@@ -78,4 +79,7 @@ const styles = StyleSheet.create({
     flex: 1, 
     backgroundColor: '#F5FCFF'
   },
+  list: {
+    justifyContent: 'space-between',
+  }
 });

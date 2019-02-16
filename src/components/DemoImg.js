@@ -1,10 +1,13 @@
 
-
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 
+/*
+  COMPONENT TO RENDER IMAGE IN LISTVIEW
+  PROPS:  title->string
+          source->string
+*/
 export default class DemoImg extends Component{
-
     // navigate to detail page
     _onPressButton = () =>{
         this.props.onPress(this.props.id);

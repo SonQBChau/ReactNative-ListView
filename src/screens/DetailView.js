@@ -6,6 +6,9 @@ import toDate from 'date-fns/parse';
 import toDateString from 'date-fns/format';
 const window = Dimensions.get('window');
 
+/*
+    DETAIL VIEW SCREEN, SHOW IMAGE AND DETAIL INFO DESCRIPTION
+*/
 export default class DetailView extends PureComponent{
 
     //default state
