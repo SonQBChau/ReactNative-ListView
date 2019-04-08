@@ -1,12 +1,6 @@
 # DemoApp
 
-1.  **How to run**
-
-    Navigate into your new directory and start it up.
-
-    ```sh
-    react-native run-ios
-    ```
+A simple app to display a list of images in a grid of 2*2. When user clicks on the image, a detail view is opened
 
 ## 📷 Screenshot
 
